@@ -1,0 +1,75 @@
+
+/* Set a style for the body */
+
+header{ background-color:white; 
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px; font-weight: normal;
+      line-height: 50px;
+      text-align: center; 
+      padding: 10px;
+      text-align: center;}
+
+      
+    h2{color: rgb(5, 5, 85);}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+body{background-color:white;
+}
+   
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: rgb(37, 130, 218);
+  color:black;
+  min-width: 50px;
+  text-align: center;
+}
+/* Set a style for the input field */
+.input-field {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid rgb(35, 181, 218);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(37, 130, 218);
+  color:black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+/* Set a style for the form*/
+.testbox {
+    margin: 0px auto;
+    width: 500px; 
+    height: 500px; 
+    -webkit-border-radius: 8px/7px; 
+    -moz-border-radius: 8px/7px; 
+    border-radius: 8px/7px; 
+    background-color: darkgray; 
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    border: solid 1px darkgrey;
+  }
+
+ 
